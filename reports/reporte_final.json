@@ -1,0 +1,39 @@
+{
+  "fecha": "2026-05-17T13:18:14.848185",
+  "modelo": "chiari_DenseNet121_kfold.keras",
+  "arquitectura": "DenseNet121",
+  "evaluacion_externa": {
+    "n_total": 131,
+    "n_chiari": 101,
+    "n_normal": 30,
+    "auc": 0.9426,
+    "f1": 0.9101,
+    "accuracy": 0.8702,
+    "sensibilidad": 0.8515,
+    "especificidad": 0.9333,
+    "tp": 86,
+    "tn": 28,
+    "fp": 2,
+    "fn": 15
+  },
+  "kfold_metricas": {
+    "DenseNet121": {
+      "auc": "0.5056 +/- 0.1564",
+      "f1": "0.5463 +/- 0.2058",
+      "sensibilidad": "0.6667 +/- 0.3333",
+      "especificidad": "0.3667 +/- 0.2472"
+    },
+    "EfficientNetB0": {
+      "auc": "0.4778 +/- 0.1367",
+      "f1": "0.1200 +/- 0.2683",
+      "sensibilidad": "0.1000 +/- 0.2236",
+      "especificidad": "0.9667 +/- 0.0746"
+    },
+    "ResNet50V2": {
+      "auc": "0.4555 +/- 0.2719",
+      "f1": "0.4855 +/- 0.1727",
+      "sensibilidad": "0.5000 +/- 0.2041",
+      "especificidad": "0.4667 +/- 0.1395"
+    }
+  }
+}

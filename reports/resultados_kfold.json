@@ -1,0 +1,25 @@
+{
+  "fecha": "2026-05-09T15:41:18.993947",
+  "mejor_arch": "DenseNet121",
+  "auc_agregado": 0.5189,
+  "metricas_kfold": {
+    "DenseNet121": {
+      "auc": "0.5056 +/- 0.1564",
+      "f1": "0.5463 +/- 0.2058",
+      "sensibilidad": "0.6667 +/- 0.3333",
+      "especificidad": "0.3667 +/- 0.2472"
+    },
+    "EfficientNetB0": {
+      "auc": "0.4778 +/- 0.1367",
+      "f1": "0.1200 +/- 0.2683",
+      "sensibilidad": "0.1000 +/- 0.2236",
+      "especificidad": "0.9667 +/- 0.0746"
+    },
+    "ResNet50V2": {
+      "auc": "0.4555 +/- 0.2719",
+      "f1": "0.4855 +/- 0.1727",
+      "sensibilidad": "0.5000 +/- 0.2041",
+      "especificidad": "0.4667 +/- 0.1395"
+    }
+  }
+}

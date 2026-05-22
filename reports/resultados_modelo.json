@@ -1,0 +1,57 @@
+{
+  "fecha": "2026-04-05T21:43:40.678819",
+  "mejor_modelo": "ResNet50V2",
+  "ruta_modelo": "D:\\USUARIO\\Downloads\\tesis_tito_140326\\models\\chiari_classifier_ResNet50V2.keras",
+  "metricas": {
+    "auc": 1.0,
+    "f1": 0.7692,
+    "accuracy": 0.6667,
+    "sensibilidad": 1.0,
+    "especificidad": 0.25
+  },
+  "matriz_confusion": {
+    "tp": 5,
+    "tn": 1,
+    "fp": 3,
+    "fn": 0
+  },
+  "config": {
+    "IMG_SIZE": [
+      224,
+      224
+    ],
+    "IMG_SHAPE": [
+      224,
+      224,
+      3
+    ],
+    "BATCH_SIZE": 16,
+    "SEED": 42,
+    "EPOCHS_F1": 30,
+    "LR_F1": 0.001,
+    "EPOCHS_F2": 40,
+    "LR_F2": 1e-05,
+    "UNFREEZE_TOP": 20,
+    "PATIENCE": 12,
+    "CLASES": [
+      "normal",
+      "chiari"
+    ]
+  },
+  "comparacion": {
+    "EfficientNetB0": {
+      "auc": 0.35,
+      "f1": 0.0,
+      "accuracy": 0.4444,
+      "sensibilidad": 0.0,
+      "especificidad": 1.0
+    },
+    "ResNet50V2": {
+      "auc": 1.0,
+      "f1": 0.7692,
+      "accuracy": 0.6667,
+      "sensibilidad": 1.0,
+      "especificidad": 0.25
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "fecha": "2026-04-05T20:54:14.221361",
+  "ruta_processed": "D:\\USUARIO\\Downloads\\tesis_tito_140326\\data\\processed",
+  "n_total": 270,
+  "n_normal": 135,
+  "n_chiari": 135,
+  "desbalance": "BAJO",
+  "class_weight": {
+    "0": 1.0,
+    "1": 1.0
+  },
+  "split": {
+    "train": 252,
+    "val": 9,
+    "test": 9
+  },
+  "imagen": {
+    "size": [
+      224,
+      224
+    ],
+    "canales": 1
+  },
+  "augmentation": {
+    "factor": 5,
+    "solo_train": true
+  },
+  "qc": {
+    "umbral_nitidez": 80.0,
+    "rechazadas": 0
+  },
+  "para_notebook_03": {
+    "input_shape": [
+      224,
+      224,
+      1
+    ],
+    "arquitecturas": [
+      "EfficientNetB0",
+      "ResNet50V2"
+    ],
+    "batch_size": 8,
+    "epochs_max": 50,
+    "early_stopping": 12,
+    "usar_class_weight": false
+  }
+}
